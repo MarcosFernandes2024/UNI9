@@ -1,0 +1,39 @@
+function validar() {
+    /* Capturar os valores digitados nos campos */
+    var usuario = document.querySelector("input#usuario").value;
+    var senha = document.querySelector("input#senha").value;
+    /* Se usuario digitado foi admin E senha digitada foi uninove */
+    if (usuario=="admin" && senha=="uninove"){
+       location.href="https://www.uninove.br/";
+    } else {
+      alert('Usuário e/ou senha inválidos');
+    }
+  }
+
+
+  function lembrar() {
+    var elm = document.querySelector("main");
+    elm.innerHTML = "<b>Usuario:</b> admin <br> <b>Senha:</b> uninove";
+    elm.style.backgroundImage = "url('fundo.jpg')";
+    elm.style.textAlign = "center";
+    elm.style.paddingTop = "20px";
+    elm.style.display = "block";
+    elm.style.color = "black"
+}
+ 
+
+
+function missao(){
+    var elm = document.querySelector("main");
+    elm.innerHTML = "<div>A missão da Uninove é formar alunos de graduiação e...</div>";
+    elm.style.backgroundImage = "url('grande.jpg')";
+    elm.style.backgroundSize = "cover";
+    elm.style.display = "flex";
+    elm.style.alignItems = "center"; // centralizou na vertical
+    elm.style.justifyContent = "center"; // centralizou na horizontal
+    elm.style.color = "white";
+    var caixa = document.querySelector("div");
+    caixa.style.backgroundColor = "rgba(255,255,255,0.3)";
+    caixa.style.padding = "20px";
+    caixa.style.borderRadius = "20px"
+}

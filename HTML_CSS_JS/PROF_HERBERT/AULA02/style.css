@@ -1,0 +1,21 @@
+body{
+    background-color: gray;
+  }
+  #div1,#div2{
+    background-color: yellow;
+  }
+  .vermelho{
+    color:#FF0000;
+  }
+  .verde{
+    background-color:#00FF00;
+  }
+  #div1 p{
+    color: #0000FF;
+  }
+  .azul{
+    background-color: whitesmoke;
+  }
+  p:hover{
+    background-color: hsl(120,100%,20%);
+  }

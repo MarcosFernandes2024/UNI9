@@ -1,0 +1,38 @@
+nav {
+    width: 100%;
+    background-color: #ededed;
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav:hover {
+    background-color: #c0c0c0;
+}
+
+
+div.menu a {
+    display: block;
+    /* aloca uma opção embaixo da outra */
+    color: #151D57;
+    text-decoration: none;
+    /* retirar o sublinhado */
+    font-family: tahoma;
+}
+
+
+div.menu a:hover {
+    color: red;
+    text-decoration: underline
+}
+
+
+body {
+    margin: 0px
+}
+
+
+div.menu {
+    display: none;
+    /* oculta ou esconde o menu */
+}

@@ -1,0 +1,57 @@
+header, footer{
+    width:80%;
+    background-color: azure;
+    border: solid #c0c0c0 1px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding: 10px;
+    box-sizing: border-box; /* para o padding não aumentar a caixa*/
+}
+
+
+
+
+* {
+    margin:0 auto
+}
+
+
+
+
+nav{
+    width: 80%;
+    background-color:aliceblue;
+    border: solid #c0c0c0 1px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 2px;
+}
+
+
+
+
+nav a{
+    padding: 5px 30px; /* margem 5px cima/baixo e 30px esquerda/direita */
+    color:black; /* cor da letra */
+    text-decoration: none; /* retira o sublinhado */
+}
+
+
+
+
+nav a:hover{
+    color:red /* quando levar o mouse sobre, mude de cor*/
+}
+
+
+
+
+main{
+    width: 80%; /* largura */
+    height: 400px; /* altura */
+    background-color:antiquewhite;
+    border: solid #c0c0c0 1px;
+    box-sizing: border-box;
+    margin-top: 2px;
+}
